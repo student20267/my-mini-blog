@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <h1 id="heading" contenteditable="true">Мой блог (можно менять текст заголовка)</h1>
+    <div id="input-display">
+        <label class="file-input-label" for="file-upload">🔗</label>
+        <input type="file" id="file-upload" class="file-input">
+        <button id="emojis">🎨</button>
+        <input type="text" id="msg-input">
+        <button id="add">➕ Опубликовать</button>
+        <div id="photo"></div>
+    </div>
+    <button id="delete-all">❌ Удалить все</button>
+    <div id="messages">
+        <div id="no-messages">У вас пока нету постов. Создайте первый!</div>
+    </div>
+    <script src="blog.js"></script>
+</body>
+</html>
